@@ -1,5 +1,7 @@
-git clone <repo>
-touch test
-git add test
-git commit -m "Initial commit"
-git push origin main
+git fetch --all
+git checkout master
+git pull upstream master
+git push origin master
+git pull origin master
+git checkout update_script
+git rebase -i master
